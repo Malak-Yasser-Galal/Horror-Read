@@ -1,0 +1,1209 @@
+/*main.css index1*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mybody{
+   min-height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    color: red;
+    text-shadow:0 0 7 rgb(159, 163, 132) ;
+    text-align: center;
+    vertical-align: middle;  
+    font-size: 50px;
+    font-family: "Dancing_Script variant0", Tofu;;
+    margin: 50 25;
+    text-transform: capitalize; 
+}
+.a,.logo{
+    text-decoration: none;
+    color: beige;
+}
+.mheader{
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 20px;
+    color:bisque;
+    position: fixed;
+    top: 5px;
+    
+}
+.mheader.logo{
+    font-size: 25px;
+}
+.mheader ul{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: justify;
+    position: absolute;
+    right: 10%;
+    bottom: -40%;
+    
+}
+.mheader ul li{
+    margin-right: 30PX;
+    display: block;
+    box-shadow: 0 0 10px rgb(184, 175, 175);
+
+}
+    
+.mheader ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+    align-content: center;
+   
+    
+}
+.mheader ul li a:hover{
+    background: rgba(155, 54, 54, 0.547);
+    color:black
+}
+.pho{
+    border-radius: 7px;
+    position: absolute;
+    top: 24%;
+    right: 52%;
+}
+.logo{
+    position: absolute;
+    left:100px;
+    top: 30px;
+}
+.foo{
+    background: rgba(0, 0, 0, 0.196);
+    width: 100%;height: 80px;
+    bottom: 100%;
+}
+.copy{
+    text-align: center;
+    padding: 20px;
+    color: rgb(137, 48, 40);
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.about{
+  background-color:rgb(22, 18, 18);
+    width: 100%;
+    min-width: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .about p{
+    color: bisque;
+    font-size: 20px;
+ }
+ .about div{
+    height: 370;
+    width: 335;
+    border-radius: 5px;
+    margin: 5px;
+    height: 100px;
+    color: brown;
+    font-size: 30px;
+    background-color: rgba(67, 11, 11, 0.252);
+    text-align: center;
+    text-transform: capitalize;
+ }
+ .why,.interset{
+    margin: 20px;
+ }
+
+.sections{
+    background-color:rgb(42, 39, 39);
+    width: 100%;
+    min-width: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sections div{
+    height: 370;
+    width: 335;
+    border-radius: 25px;
+    margin: 20px;
+    height: 100px;
+    color: brown;
+    font-size: 30px;
+    background-color: rgba(67, 11, 11, 0.252);
+    text-align: center;
+    text-transform: capitalize;
+ }
+.car,.ara{
+    padding:20px;
+}
+.sections p{
+    color: bisque;
+    font-size: 20px;
+ }
+ .list{
+    width: 100%;
+    height: 1250px ;
+    background-image: url(../images/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .list.nemo{
+    color: brown;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.table{
+    border: 5px solid rgba(186, 38, 38, 0.229);
+    color: antiquewhite;
+    box-shadow: 0 0 10px red;
+    width: 70%;
+   position: absolute;
+   bottom: -250%;
+   right: 15%;
+}
+.nemo{
+    color: brown;
+    font-size: 30px;
+    text-transform: capitalize;
+   text-align: center;
+   
+
+}
+.kiko{
+    border:4px solid rgba(186, 38, 38, 0.229) ;
+    box-shadow: 0 0 10px red;
+    margin: 10;
+}
+.data{
+    border:4px solid rgba(186, 38, 38, 0.229) ;
+    box-shadow: 0 0 10px red;
+    text-align: center;
+    
+}
+.head{
+   border:4px solid rgba(186, 38, 38, 0.229) ;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: rgb(84, 82, 82);  
+}
+.img{
+    position: absolute;
+    left: -5%;
+}
+.fo{
+    font-size: 40px;
+    color: rgb(79, 26, 26);
+    text-align: center;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 365%;
+    right: 45%;
+}
+.form{
+    width: 600px;
+    text-align: center;
+}
+.in{
+    display: flex;
+    justify-content: space-between;
+}
+.k{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid rgba(125, 62, 62, 0.797);
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 7px  0;
+    box-shadow: 0 0 10px crimson;
+}
+.text{
+    resize: none;
+}
+.bot{
+    padding: 12px 32px;
+    background: rgb(201, 63, 63);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px red;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*main3*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-image: url(../images/poo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.a{
+    text-decoration: none;
+    color: beige;
+}
+.headeer{
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 20px;
+    color:bisque;
+    position: fixed;
+    top: 5px;
+    
+}
+.headeer.logo{
+    font-size: 25px; 
+}
+.logo{
+    text-decoration: none;
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left:100px;
+}
+.headeer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: justify;
+    position: absolute;
+    right: 10%;
+    bottom: -40%;
+    
+}
+.h2 .a{
+    position: absolute;
+    top:50%;
+}
+.headeer ul li{
+    margin-right: 30PX;
+    display: block;
+
+
+}
+    
+.headeer ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+    align-content: center;
+   
+    
+}
+.headeer ul li a:hover{
+    background: rgb(131, 97, 97);
+    color:black
+}
+
+.pho{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.myshow1,.myshow2,.myshow3,.myshow4{
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgb(236, 171, 31);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr;   
+    
+}
+.boox button:hover{
+    color:rgb(212, 183, 179);
+    height: 60px;
+    
+}
+.myhide1 , .myhide2,.myhide3 ,.myhide4{
+    display: none;
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    padding: 10px;
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 155, 20, 0.9);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr
+
+}
+.info1,.info2,.info3,.info4 {
+    display: none;
+    position: absolute;
+    right: 35%;
+}
+.boox {
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    direction: ltr;
+    width: 1150px; 
+    height: 1700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(420px,1fr));
+    grid-template-rows: repeat(10, 140px);  
+}
+.myb1{
+    grid-column:2/5;
+    grid-row: 1/5;
+    left: 20%;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(79, 7, 7, 0.279);
+    position: absolute;
+    box-sizing: border-box;
+    border: 10px solid rgba(224, 191, 123, 0.751);
+    direction: ltr;
+}
+.myb2{
+    grid-column: 6/9;
+    grid-row:1/5 ;
+    padding: 30px;
+    position: absolute;
+    left: 60%;
+    background-color: rgba(79, 7, 7, 0.279);
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 10px solid rgba(224, 191, 123, 0.751);
+    direction: ltr;
+}
+.myb3{
+    grid-column: 2/5;
+    grid-row:6/10;
+    padding: 30px;
+    background-color: rgba(79, 7, 7, 0.279);
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 10px solid rgba(224, 191, 123, 0.751);
+    direction: ltr;
+}
+.myb4{
+    grid-column:6/9;
+    grid-row:6/10;
+    padding: 30px;
+    background-color: rgba(79, 7, 7, 0.279);
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 10px solid rgba(224, 191, 123, 0.751);
+    direction: ltr;
+}
+
+.myshow1{
+    position: absolute;
+    bottom: -15%;
+    right: 65%;
+}
+.myshow4{
+    position: absolute;
+    bottom: -100%;
+    right: 12%;
+}
+.myshow2{
+    position: absolute;
+    bottom: -15%;
+    right: 25%;
+}
+.myshow3{
+    position: absolute;
+    bottom: -100%;
+    right: 51%;
+}
+.h3{
+    color: antiquewhite;
+}
+.contian{
+    width: 100%;
+    overflow: hidden;
+    margin: 10px auto;
+    margin: left 20px; 
+    padding: 10px 0;
+}
+.contian ul{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 210%;
+
+}
+.contian ul li{
+    border-radius: 10px;
+    list-style: none;
+    float: left;
+    background-color: rgb(162, 86, 49);
+    width: 30%;
+    height: 400px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(224, 191, 123, 0.751);
+    text-align: center;
+}
+.contian ul li audio{
+    height: 100px;
+}
+.contian ul li .lo{
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 10px red;
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+.mm{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: rgba(210, 44, 44, 0.786);
+    background-color: rgba(199, 147, 79, 0.895);
+    font-size: 20px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr;   
+}
+/*main22*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-image: url(../images/do.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.a{
+    text-decoration: none;
+    color: beige;
+}
+.headeer{
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 20px;
+    color:bisque;
+    position: fixed;
+    top: 5px;
+    
+}
+.headeer.logo{
+    font-size: 25px;
+    position: absolute;
+    left:100px;
+}
+.logo{
+    position: absolute;
+    left:100px;
+    text-decoration: none;
+    color: beige;
+    top: 50%;
+}
+.headeer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: justify;
+    position: absolute;
+    right: 10%;
+    bottom: -40%;
+    
+}
+.h2 .a{
+    position: absolute;
+    top:50%;
+}
+.headeer ul li{
+    margin-right: 30PX;
+    display: block;
+
+
+}
+    
+.headeer ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+    align-content: center;
+   
+    
+}
+.headeer ul li a:hover{
+    background: rgb(131, 97, 97);
+    color:black
+}
+
+.pho{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.myshow1,.myshow2,.myshow3,.myshow4 {
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 203, 201, 0.353);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr;   
+    
+}
+.boox button:hover{
+    color:rgb(212, 183, 179);
+    height: 60px;
+    
+}
+.myhide1 , .myhide2,.myhide3 ,.myhide4{
+    display: none;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    box-shadow: 0 0 10px red;
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 203, 201, 0.353);
+    font-size: 30px;
+    
+
+
+}
+.info1,.info2,.info3,.info4 {
+    display: none;
+}
+.boox {
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    direction: ltr;
+    width: 1150px; 
+    height: 1700px;
+    display: flexbox;
+}
+.myb1{
+    grid-column:2/5;
+    grid-row: 1/5;
+    left: 10%;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(79, 7, 7, 0.279);
+    position: absolute;
+    box-sizing: border-box;
+    border: 5px solid rgba(199, 74, 68, 0.751);
+    direction: ltr;
+}
+.myb2{
+    grid-column: 6/9;
+    grid-row:1/6 ;
+    padding: 30px;
+    position: absolute;
+    left: 60%;
+    background-color: rgba(79, 7, 7, 0.279);
+    box-sizing: border-box;
+    border: 5px solid rgba(199, 74, 68, 0.751);
+    direction: ltr;
+}
+.myb3{
+    grid-column: 2/5;
+    grid-row:6/10;
+    position: absolute;
+    left: 10%;
+    bottom: -100%;
+    padding: 30px;
+    background-color: rgba(79, 7, 7, 0.279);
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 5px solid rgba(199, 74, 68, 0.751);
+    direction: ltr;
+}
+.myb4{
+    grid-column:6/9;
+    grid-row:6/10;
+    position: absolute;
+    bottom: -100%;
+    right: 15%;
+    padding: 30px;
+    border: 5px solid rgba(199, 74, 68, 0.751);
+    background-color: rgba(79, 7, 7, 0.279);
+    border-radius: 6px;
+    box-sizing: border-box;
+    direction: ltr;
+}
+.myb1,.myb2,.myb3,.myb4{
+    box-shadow: 0 0 10px red;
+}
+.myshow1{
+    position: absolute;
+    bottom: -12%;
+    right: 75%;
+}
+.myshow4{
+    position: absolute;
+    bottom: -110%;
+    right: 20%;
+}
+.myshow2{
+    position: absolute;
+    bottom: -12%;
+    right: 25%;
+}
+.myshow3{
+    position: absolute;
+    bottom: -110%;
+    right: 75%;
+}
+.h3{
+    color: antiquewhite;
+}
+.contian{
+    width: 100%;
+    overflow: hidden;
+    margin: 10px auto;
+    margin: left 20px; 
+    padding: 10px 0;
+}
+.contian ul{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 210%;
+
+}
+
+.contian ul li{
+    box-shadow: 0 0 10px red;
+    border-radius: 10px;
+    list-style: none;
+    float: left;
+    background-color: rgba(82, 76, 76, 0.89);
+    width: 30%;
+    height: 400px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(212, 89, 44, 0.751);
+    text-align: center;
+}
+.contian ul li audio{
+    height: 100px;
+}
+.contian ul li .lo{
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 10px red;
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+.mm{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 203, 201, 0.353);
+    font-size: 20px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr;   
+    
+}
+/*main2*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#my.body1{
+    background-image: url("../images/img2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 3000px;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.a{
+    text-decoration: none;
+    color: beige;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 20px;
+    color:bisque;
+    position: fixed;
+    top: 5px;
+    
+}
+.header.logo{
+    font-size: 25px;
+}
+.logo{
+    text-decoration: none;
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left:100px;
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: justify;
+    position: absolute;
+    right: 20%;
+    bottom: -50%;
+    
+}
+.header ul li{
+    margin-right: 30PX;
+    display: block;
+    box-shadow: 0 0 10px rgba(87, 6, 6, 0.729);
+}
+    
+.header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+    align-content: center;
+}
+.header ul li a:hover{
+    background: rgba(120, 14, 14, 0.626);
+    color:black
+}
+.pho{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.p{
+    color:rgb(240, 235, 235);
+    font-size: 20px;
+    margin: 20px;
+}
+
+.mshow1,.mshow2,.mshow3,.mshow4,.mshow5,.mshow6{
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 203, 201, 0.353);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 15px auto;  
+    direction: rtl;  
+    padding: 10px; 
+    transition: 0.2s;
+}
+.box button:hover{
+    color:rgb(212, 183, 179);
+    height: 60px;
+    
+}
+
+.iframe{
+  margin: 20px;
+  border-radius: 6px;
+
+}
+.msummary1,.msummary2,.msummary3,.msummary4,.msummary5,.msummary6{
+    display: none;
+    margin-top: 20%;
+}
+.mhide1 , .mhide2,.mhide3 ,.mhide4,.mhide5 , .mhide6{
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 203, 201, 0.353);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 15px auto;  
+    direction: rtl;  
+    padding: 10px;
+    display: none;
+    position: absolute;
+    top: 30%;
+    right: 45%;
+}
+
+.box {
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    direction: rtl;
+    width: 1250px; 
+    height: 1700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(320px,1fr));
+    grid-template-rows: repeat(12, 166px);
+}
+    
+.mb1{
+    grid-column: 2/5;
+    grid-row: 2/5;
+    
+    
+}
+.mb2{
+    grid-column:5/8 ;
+    grid-row: 2/5;
+   
+}
+.mb3{
+    grid-column:8/12 ;
+    grid-row: 2/5;
+    
+}
+.mb4{
+    grid-column: 2/5;
+    grid-row: 7/10;
+   
+}
+.mb5{
+    grid-column: 5/8;
+    grid-row: 7/10;
+   
+    
+}
+.mb6{
+    grid-column:8/12 ;
+    grid-row: 7/10;
+    
+    
+}
+.mshow1{
+    position: absolute;
+    bottom: -20%;
+    right: 15%;
+}
+.mshow4{
+    position: absolute;
+    bottom: -122%;
+    left: 75%;
+}
+
+.mshow2{
+    position: absolute;
+   bottom: -20%;
+    left:52%;
+}
+
+.mshow5{
+    position: absolute;
+    bottom: -122%;
+    left: 52%;
+}
+.mshow3{
+    position: absolute;
+    bottom: -20%;
+    right: 65%;
+}
+.mshow6{
+    position: absolute;
+    bottom: -122%;
+    left: 25%;
+}
+.h2{
+    color: bisque;
+}
+.my{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 203, 201, 0.353);
+    font-size: 20px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr;  
+     
+}
+
+.h3{
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+}
+.vo{
+    margin-top: 40px;
+   display: flex;  
+}
+.vo1,.vo2,.vo3{
+    margin: 20px;
+    background-color: rgb(64, 57, 57);
+    box-shadow: 0 0 16px rgba(255, 47, 0, 0.786);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+/*main23*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#my.body1{
+    background-image: url("../images/log.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 3000px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.a{
+    text-decoration: none;
+    color: beige;
+}
+.logo{
+    text-decoration: none;
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left:100px;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 20px;
+    color:rgb(148, 50, 50);
+    position: fixed;
+    top: 5px;
+    
+}
+.header.logo{
+    font-size: 25px;
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: justify;
+    position: absolute;
+    right: 20%;
+    bottom: -50%;
+    
+}
+.header ul li{
+    margin-right: 30PX;
+    display: block;
+    box-shadow: 0 0 10px rgb(184, 175, 175);
+}
+    
+.header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+    align-content: center;
+}
+.header ul li a:hover{
+    background: rgba(199, 88, 32, 0.592);
+    color:black
+}
+.pho{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.p{
+    color:rgb(240, 235, 235);
+    font-size: 20px;
+    margin: 20px;
+}
+
+.mshow1,.mshow2,.mshow3,.mshow4,.mshow5,.mshow6{
+    color: rgba(148, 141, 139, 0.786);
+    background-color: rgba(26, 16, 14, 0.738);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 15px auto;  
+    direction: rtl;  
+    padding: 10px; 
+    box-shadow: 0 0 10px rgb(72, 61, 61);
+    transition: 0.2s;
+}
+.box button:hover{
+    color:rgb(212, 183, 179);
+    height: 60px;
+    
+}
+
+.iframe{
+  margin: 20px;
+  border-radius: 6px;
+
+}
+.msummary1,.msummary2,.msummary3,.msummary4,.msummary5,.msummary6{
+    display: none;
+    margin-top: 20%;
+}
+.mhide1 , .mhide2,.mhide3 ,.mhide4,.mhide5 , .mhide6{
+    color: rgba(255, 47, 0, 0.786);
+    background-color: rgba(218, 203, 201, 0.353);
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 15px auto;  
+    direction: rtl;  
+    padding: 10px;
+    display: none;
+    position: absolute;
+    top: 30%;
+    right: 45%;
+}
+
+.box {
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    direction: rtl;
+    width: 1250px; 
+    height: 1700px;
+    display: flex;
+}
+    
+.mb1{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    margin: 30px;
+    
+    
+}
+.mb2{
+   position: absolute;
+   top: 20%;
+   left: 10%;
+   margin: 30px;
+   
+}
+.mb3{
+    position: absolute;
+    top: 110%;
+    right: 10%;
+    
+}
+.mb4{
+    position: absolute;
+   top: 110%;
+   left: 10%
+   
+}
+.mb5{
+    position: absolute;
+    top: 200%;
+    right: 10%;
+}
+.mb6{
+    position: absolute;
+    top: 200%;
+    left: 10%; 
+}
+.mshow1{
+    position: absolute;
+    bottom: -5%;
+    right: 15%;
+}
+.mshow2{
+    position: absolute;
+    bottom: -5%;
+    left:15% ;
+}
+.mshow3{
+    position: absolute;
+    bottom: -95%;
+    right: 15%;
+}
+.mshow4{
+    position: absolute;
+    bottom: -95%;
+    left: 15%;
+}
+.mshow5{
+    position: absolute;
+    bottom: -180%;
+      left: 75%;
+}
+.mshow6{
+    position: absolute;
+    bottom: -180%;
+    left: 15%;
+}
+.h2{
+    color: bisque;
+}
+.my{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color:beige;
+    background-color: rgba(32, 29, 28, 0.511);
+    font-size: 20px;
+    border-radius: 6px;
+    margin: 10px auto;  
+    padding: 10px;
+    direction: ltr;     
+}
+.h3{
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+}
+.vo{
+    margin-top: 40px;
+   display: flex;
+   position: absolute;
+   top: 280%;  
+}
+.vo1,.vo2,.vo3{
+    margin: 20px;
+    background-color: rgb(17, 16, 16);
+    box-shadow: 0 0 16px rgba(255, 47, 0, 0.786);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
